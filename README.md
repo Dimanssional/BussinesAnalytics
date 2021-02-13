@@ -1,4 +1,4 @@
-# Analytic university tasks
+# Analythic university tasks
 
 ## Branches
 * main: tasks in R language
