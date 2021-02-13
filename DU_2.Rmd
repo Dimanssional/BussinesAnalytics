@@ -1,0 +1,34 @@
+---
+title: "Cvičenie č.3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Typy atribútov
+
+- Kvalitatívne (*kategoriálne*) atribúty
+  + **Nominálne** alebo **ordinálne** atribúty
+- Kvantitatívne (*numerické*) atribúty
+  + **Intervalové** alebo **racionálne** atribúty
+
+
+## Kvadratická rovnica
+Diskriminant vypočítame pomocou vzorca $$D=b^2−4∗𝑎∗𝑐$$
+
+## Dáta
+
+Počet riadkov a stĺpcov dát *iris*
+```{r}
+dim(iris)
+```
+
+## Graf
+```{r}
+my_data <- as.data.frame(iris)
+plot(my_data$Sepal.Length, my_data$Petal.Length, col="red", xlab = "Sepal Length", ylab="Petal Length", main = "Iris")
+
+```
+
